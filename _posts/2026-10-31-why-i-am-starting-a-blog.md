@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why I'm Starting a Blog (and Why It Lives Here)"
+title: "I am starting a blog (again)"
 description: "I want to share my thinking on LinkedIn — but I also want to own it. Here's the setup."
 # After you share this on LinkedIn, paste the post URL below to add a "discuss" link:
 # linkedin: https://www.linkedin.com/posts/...
