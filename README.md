@@ -1,4 +1,4 @@
-# mmenter.github.io
+# merlineck.github.io
 
 Personal site and blog, built with Jekyll on GitHub Pages.
 
