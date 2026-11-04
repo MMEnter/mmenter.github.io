@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <nav class="site-nav">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <span class="nav-links">
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </span>
+  </nav>
+
+  {{ content }}
+
+  <footer class="site-footer">
+    &copy; {{ 'now' | date: '%Y' }} {{ site.author }}
+  </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Site settings — edit these to make the site yours.
+title: Merlin
+description: My thoughts, notes, and ideas.
+author: Merlin Eck
+url: "https://mmenter.github.io"
+baseurl: ""
+
+# Pretty post URLs: /blog/2026/10/31/my-post/
+permalink: /blog/:year/:month/:day/:title/
+
+markdown: kramdown
+
+# Both plugins are supported natively by GitHub Pages.
+plugins:
+  - jekyll-feed      # RSS/Atom feed at /feed.xml
+  - jekyll-seo-tag   # Titles, descriptions, and LinkedIn/social preview cards
+
+exclude:
+  - README.md

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<main class="container">
+  <article class="post">
+    <header>
+      <h1>{{ page.title }}</h1>
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+        &middot; {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read
+      </p>
+    </header>
+
+    {{ content }}
+
+    {% if page.linkedin %}
+    <p class="discuss">
+      <a href="{{ page.linkedin }}">Join the discussion on LinkedIn &rarr;</a>
+    </p>
+    {% endif %}
+  </article>
+
+  <p><a href="{{ '/blog/' | relative_url }}">&larr; All posts</a></p>
+</main>
